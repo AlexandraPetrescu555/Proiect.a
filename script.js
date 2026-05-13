@@ -91,32 +91,35 @@ const quiz = [
   {
     question: "1.Folosind cifrele {1,2,3} se generează, în ordinea crescătoare a valorii, toate numerele pare formate din trei cifre distincte. Astfel, se obţin în ordine, numerele: 132, 312. Folosind aceeaşi metodă, se generează numerele pare formate din patru cifre distincte din mulţimea {1,2,3,4}. Care va fi al 4-lea număr generat?",
     answers: [
-      { text: "Cluj-Napoca", correct: false },
-      { text: "Iași", correct: false },
-      { text: "București", correct: true },
-      { text: "Timișoara", correct: false }
+  
+        { text: "2134", correct: false },
+          { text: "1432", correct: true },
+          { text: "	2314", correct: false },
+          { text: "	1423", correct: false }
     ]
   },
   {
-    question: "2. Cât face 7 + 5?",
+    question: "3. Utilizând metoda backtracking se generează în ordine lexicografică cuvintele de câte patru litere din mulţimea A={a,b,c,d,e}, cuvinte care nu conţin două vocale alăturate. Primele opt cuvinte generate sunt, în ordine: abab, abac, abad, abba, abbb, abbc, abbd, abbe.
     answers: [
-      { text: "10", correct: false },
-      { text: "12", correct: true },
-      { text: "14", correct: false },
-      { text: "15", correct: false }
+     { text: "	0", correct: false },
+          { text: "15", correct: true },
+          { text: "12", correct: false },
+          { text: "20", correct: false }
     ]
   },
   {
-    question: "3. Ce limbaj folosim pentru stilizarea paginilor web?",
+   question: "4. Pentru a planifica în orarul unei şcoli, la clasa a XI-a, 4 ore de informatică în zile lucrătoare diferite din săptămână, câte o singură oră pe zi, se poate utiliza un algoritm echivalent cu algoritmul de generare a:?",
     answers: [
-      { text: "HTML", correct: false },
-      { text: "CSS", correct: true },
-      { text: "Python", correct: false },
-      { text: "Java", correct: false }
+       { text: "permutărilor de 4 elemente", correct: false },
+          { text: "aranjamentelor de 4 elemente luate câte 5", correct: false },
+          { text: "	
+aranjamentelor de 5 elemente luate câte 4", correct: false },
+          { text: "	
+combinărilor de 5 elemente luate câte 4", correct: true }
     ]
-  },
+  };
   {
-    question: "4. Care planetă este cunoscută drept Planeta Roșie?",
+     question: "5. Utilizând metoda backtracking se generează toate cuvintele de câte 3 litere din mulţimea {a,b,c}. Dacă primele patru cuvinte generate sunt, în acestă ordine: aaa, aab, aac, aba, care este cel de-al optulea cuvânt generat?",
     answers: [
       { text: "Venus", correct: false },
       { text: "Jupiter", correct: false },
