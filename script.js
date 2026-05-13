@@ -99,7 +99,7 @@ const quiz = [
     ]
   },
   {
-    question: "3. Utilizând metoda backtracking se generează în ordine lexicografică cuvintele de câte patru litere din mulţimea A={a,b,c,d,e}, cuvinte care nu conţin două vocale alăturate. Primele opt cuvinte generate sunt, în ordine: abab, abac, abad, abba, abbb, abbc, abbd, abbe.
+    question: "2. Utilizând metoda backtracking se generează în ordine lexicografică cuvintele de câte patru litere din mulţimea A={a,b,c,d,e}, cuvinte care nu conţin două vocale alăturate. Primele opt cuvinte generate sunt, în ordine: abab, abac, abad, abba, abbb, abbc, abbd, abbe.
     answers: [
      { text: "	0", correct: false },
           { text: "15", correct: true },
@@ -108,7 +108,7 @@ const quiz = [
     ]
   },
   {
-   question: "4. Pentru a planifica în orarul unei şcoli, la clasa a XI-a, 4 ore de informatică în zile lucrătoare diferite din săptămână, câte o singură oră pe zi, se poate utiliza un algoritm echivalent cu algoritmul de generare a:?",
+   question: "3. Pentru a planifica în orarul unei şcoli, la clasa a XI-a, 4 ore de informatică în zile lucrătoare diferite din săptămână, câte o singură oră pe zi, se poate utiliza un algoritm echivalent cu algoritmul de generare a:?",
     answers: [
        { text: "permutărilor de 4 elemente", correct: false },
           { text: "aranjamentelor de 4 elemente luate câte 5", correct: false },
@@ -119,21 +119,21 @@ combinărilor de 5 elemente luate câte 4", correct: true }
     ]
   };
   {
-     question: "5. Utilizând metoda backtracking se generează toate cuvintele de câte 3 litere din mulţimea {a,b,c}. Dacă primele patru cuvinte generate sunt, în acestă ordine: aaa, aab, aac, aba, care este cel de-al optulea cuvânt generat?",
+     question: "4. Utilizând metoda backtracking se generează toate cuvintele de câte 3 litere din mulţimea {a,b,c}. Dacă primele patru cuvinte generate sunt, în acestă ordine: aaa, aab, aac, aba, care este cel de-al optulea cuvânt generat?",
     answers: [
-      { text: "Venus", correct: false },
-      { text: "Jupiter", correct: false },
-      { text: "Marte", correct: true },
-      { text: "Saturn", correct: false }
+      { text: "acb", correct: false },
+          { text: "acc", correct: false },
+          { text: "aca", correct: true },
+          { text: "	bca", correct: false }
     ]
   },
   {
-    question: "5. Ce limbaj rulează în browser pentru interactivitate?",
+    question: "5. Utilizând metoda backtracking se generează permutările cuvântului info. Dacă primele trei soluţii generate sunt: fino, fion, fnio care este cea de-a cincea soluţie?",
     answers: [
-      { text: "C++", correct: false },
-      { text: "Java", correct: false },
-      { text: "JavaScript", correct: true },
-      { text: "Python", correct: false }
+       { text: "fnoi", correct: false },
+          { text: "foni", correct: false },
+          { text: "foin", correct: true },
+          { text: "ifon", correct: false }
     ]
   }
 ];
