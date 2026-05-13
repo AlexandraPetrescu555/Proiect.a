@@ -89,7 +89,7 @@ script.js
 
 const quiz = [
   {
-    question: "1. Care este capitala României?",
+    question: "1.Folosind cifrele {1,2,3} se generează, în ordinea crescătoare a valorii, toate numerele pare formate din trei cifre distincte. Astfel, se obţin în ordine, numerele: 132, 312. Folosind aceeaşi metodă, se generează numerele pare formate din patru cifre distincte din mulţimea {1,2,3,4}. Care va fi al 4-lea număr generat?",
     answers: [
       { text: "Cluj-Napoca", correct: false },
       { text: "Iași", correct: false },
